@@ -1,0 +1,68 @@
+{
+  "categories": [
+    {
+      "category_id": "pizza",
+      "category_name": "Pizza",
+      "imageUrl": "",
+      "description": "10-inch wood-fired Neapolitan-style vegetarian pizzas.",
+      "isVeg": true,
+      "isNonVeg": true
+    },
+    {
+      "category_id": "small-plates",
+      "category_name": "Small Plates",
+      "imageUrl": "",
+      "description": "",
+      "isVeg": true,
+      "isNonVeg": true
+    },
+    {
+      "category_id": "soup",
+      "category_name": "Soup",
+      "imageUrl": "",
+      "description": "",
+      "isVeg": true,
+      "isNonVeg": true
+    },
+    {
+      "category_id": "pasta",
+      "category_name": "Pasta",
+      "imageUrl": "",
+      "description": "",
+      "isVeg": true,
+      "isNonVeg": true
+    },
+    {
+      "category_id": "grills",
+      "category_name": "Grills",
+      "imageUrl": "",
+      "description": "Served with mashed potatoes and sauteed vegetables",
+      "isVeg": true,
+      "isNonVeg": true
+    },
+    {
+      "category_id": "sandwiches",
+      "category_name": "Sandwiches",
+      "imageUrl": "",
+      "description": "Served on multigrain panini bread.",
+      "isVeg": true,
+      "isNonVeg": true
+    },
+    {
+      "category_id": "desserts",
+      "category_name": "Desserts",
+      "imageUrl": "",
+      "description": "",
+      "isVeg": true,
+      "isNonVeg": false
+    },
+    {
+      "category_id": "extra_items",
+      "category_name": "Extra Items",
+      "imageUrl": "",
+      "description": "",
+      "isVeg": true,
+      "isNonVeg": true
+    }
+  ]
+}

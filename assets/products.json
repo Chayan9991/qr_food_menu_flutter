@@ -1,0 +1,964 @@
+{
+  "products": [
+    {
+      "category_id": "pizza",
+      "veg_products": [
+        {
+          "name": "Margherita",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Classic pizza with fresh tomatoes, mozzarella, and olive oil.",
+          "base_price": 450,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Rosemary Potato",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Savory pizza with rosemary-seasoned potatoes and garlic.",
+          "base_price": 550,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Alfredo",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Rich garlic cream sauce with spinach and tomatoes.",
+          "base_price": 580,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Spinach & Tomato",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Delightful blend of bell peppers, tomato, and sweet corn.",
+          "base_price": 580,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Garden Fresh",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Loaded with fresh vegetables like olives, bell peppers, and corn.",
+          "base_price": 580,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Pesto Burrata",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Basil pesto topped with creamy burrata cheese.",
+          "base_price": 675,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Fungi Truffle",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Earthy mushrooms paired with aromatic truffle oil.",
+          "base_price": 620,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Fungi Tomato",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Mushrooms blended with tangy San Marzano tomatoes.",
+          "base_price": 580,
+          "variations": [],
+          "isOutOfStock": false
+        }
+      ],
+      "non_veg_products": [
+        {
+          "name": "Polo Fungi Pesto",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Chicken and mushrooms with basil pesto.",
+          "base_price": 600,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Polo Fungi Tomato",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Chicken and mushrooms with San Marzano tomato sauce.",
+          "base_price": 600,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Fire E Chicken",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Spicy chicken with jalapeño and paprika.",
+          "base_price": 620,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "BBQ Chicken",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "BBQ chicken with caramelized onion and jalapeño.",
+          "base_price": 620,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Hawaiian",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Chicken with sweet pineapple chunks.",
+          "base_price": 650,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Pepperoni",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Classic pork pepperoni pizza.",
+          "base_price": 675,
+          "variations": [],
+          "isOutOfStock": true
+        },
+        {
+          "name": "Meat Lovers Delight",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Loaded with chicken chunks, bacon, and pork pepperoni.",
+          "base_price": 700,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Alfredo Chicken",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Creamy Alfredo sauce with sun-dried tomatoes and chicken.",
+          "base_price": 625,
+          "variations": [],
+          "isOutOfStock": true
+        },
+        {
+          "name": "Roasted Garlic and Chicken",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Caramelized onions with roasted garlic and chicken.",
+          "base_price": 625,
+          "variations": [],
+          "isOutOfStock": false
+        }
+      ]
+    },
+    {
+      "category_id": "small-plates",
+      "veg_products": [
+        {
+          "name": "Khachapuri",
+          "isCustomizable": false,
+          "hasVariation": true,
+          "isVeg": true,
+          "isNonVeg": true,
+          "description": "Georgian bread filled with cheese, with various options like veggies, chicken, or bacon.",
+          "base_price": 250,
+          "variations": [
+            {
+              "name": "Only Cheese",
+              "price": 250,
+              "isVeg": true
+            },
+            {
+              "name": "Veggies",
+              "price": 280,
+              "isVeg": true
+            },
+            {
+              "name": "Chicken",
+              "price": 310,
+              "isVeg": false
+            },
+            {
+              "name": "Bacon",
+              "price": 380,
+              "isVeg": false
+            }
+          ],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Pulled Cheese Garlic Bread",
+          "isCustomizable": false,
+          "hasVariation": true,
+          "isVeg": true,
+          "isNonVeg": true,
+          "description": "Classic garlic bread with mixed (veg/non-veg) variations.",
+          "base_price": 250,
+          "variations": [
+            {
+              "name": "Only Cheese",
+              "price": 220,
+              "isVeg": true
+            },
+            {
+              "name": "Veggies",
+              "price": 250,
+              "isVeg": true
+            },
+            {
+              "name": "Chicken",
+              "price": 280,
+              "isVeg": false
+            },
+            {
+              "name": "Bacon",
+              "price": 350,
+              "isVeg": false
+            }
+          ],
+          "isOutOfStock": false
+        },
+        {
+          "name": "French Fries",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "description": "Crispy golden fries.",
+          "base_price": 250,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Balsamic Paneer",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "description": "Paneer cubes tossed in balsamic vinegar dressing.",
+          "base_price": 330,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Cheese Chilli Toast",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "description": "Toasted bread with cheese and chili toppings.",
+          "base_price": 280,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Bruschetta",
+          "isCustomizable": false,
+          "hasVariation": true,
+          "isVeg": true,
+          "description": "Toasted bread topped with tomato and bocconcini or creamy mushroom.",
+          "base_price": 280,
+          "variations": [
+            {
+              "name": "Tomato & Bocconcini",
+              "price": 280,
+              "isVeg": true
+            },
+            {
+              "name": "Creamy Mushroom",
+              "price": 320,
+              "isVeg": true
+            }
+          ],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Filo Parmesan",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "description": "Crispy filo sheets filled with ratatouille and parmesan.",
+          "base_price": 350,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Pollo Piccante",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": false,
+          "description": "Grilled chicken with sundried tomatoes, pesto garlic, and feta.",
+          "base_price": 350,
+          "isOutOfStock": false
+        }
+      ],
+      "non_veg_products": [
+        {
+          "name": "Pesto Chicken",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": false,
+          "description": "Grilled chicken breast with pesto sauce.",
+          "base_price": 350,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Chicken Wings",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": false,
+          "description": "Crispy fried chicken wings with tangy sauce.",
+          "base_price": 280,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Bacon Wrapped Chicken",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": false,
+          "description": "Tender chicken breast wrapped in crispy bacon.",
+          "base_price": 400,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Bacon Wrapped Prawns",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": false,
+          "description": "Juicy prawns wrapped in crispy bacon.",
+          "base_price": 420,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Fish and Chips (Kolkata Vetki)",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": false,
+          "description": "Crispy Kolkata Vetki fish served with crispy fries.",
+          "base_price": 550,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Crispy Fried Prawns",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": false,
+          "description": "Golden crispy prawns served with dipping sauce.",
+          "base_price": 420,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Prawn Basket",
+          "isCustomizable": true,
+          "hasVariation": false,
+          "isVeg": false,
+          "description": "Basket full of fried prawns with dipping sauce.",
+          "base_price": 470,
+          "variations": [],
+          "isOutOfStock": false
+        }
+      ]
+    },
+    {
+      "category_id": "soup",
+      "veg_products": [
+        {
+          "name": "Roasted Tomato & Basil",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "description": "A rich and flavorful soup made with roasted tomatoes and basil.",
+          "base_price": 250,
+          "variations": [],
+          "isOutOfStock": false
+        }
+      ],
+      "non_veg_products": [
+        {
+          "name": "Chicken Clear",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": false,
+          "description": "A clear broth soup made with tender chicken and spices.",
+          "base_price": 220,
+          "variations": [],
+          "isOutOfStock": false
+        }
+      ]
+    },
+    {
+      "category_id": "pasta",
+      "veg_products": [
+        {
+          "name": "Pumpkin Ravioli",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Delicious pumpkin-filled ravioli served with a savory sauce.",
+          "base_price": 425,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Spinach Cannelloni",
+          "isCustomizable": false,
+          "hasVariation": true,
+          "isVeg": true,
+          "isNonVeg": true,
+          "description": "Spinach-stuffed pasta rolled and baked with a rich sauce.",
+          "base_price": 425,
+          "variations": [
+            {
+              "name": "Veg",
+              "price": 425,
+              "isVeg": true
+            },
+            {
+              "name": "Chicken",
+              "price": 500,
+              "isVeg": false
+            }
+          ],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Arrabbiata",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "A spicy tomato pasta with garlic and chili flakes.",
+          "base_price": 380,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Garlic Cream & Cheese",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Creamy garlic sauce with a generous amount of cheese.",
+          "base_price": 380,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Mixed Sauce Pasta",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Pasta served with a mix of tangy tomato and creamy sauce.",
+          "base_price": 380,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Basil Pesto",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Pasta coated with a fragrant basil pesto sauce.",
+          "base_price": 380,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Paprika Cream",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Rich and spicy cream sauce with paprika.",
+          "base_price": 420,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Aglio e Olio",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Classic Italian pasta with garlic, olive oil, and chili.",
+          "base_price": 380,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Carbonara",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "A creamy pasta with eggs, cheese, and pancetta.",
+          "base_price": 450,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Sundried Tomato Risotto",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Creamy risotto with sun-dried tomatoes and a rich sauce.",
+          "base_price": 420,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Creamy Mushroom & Truffle Risotto",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "A luxurious creamy risotto with mushrooms and truffle.",
+          "base_price": 450,
+          "variations": [],
+          "isOutOfStock": false
+        }
+      ],
+      "non_veg_products": [
+        {
+          "name": "Carbonara (Non-Veg)",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Traditional carbonara with creamy sauce, bacon, and spaghetti.",
+          "base_price": 450,
+          "variations": [],
+          "isOutOfStock": false
+        }
+      ]
+    },
+    {
+      "category_id": "grills",
+      "veg_products": [
+        {
+          "name": "Grilled Paneer",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Grilled paneer served with mashed potatoes and sautéed vegetables.",
+          "base_price": 420,
+          "variations": [],
+          "isOutOfStock": false
+        }
+      ],
+      "non_veg_products": [
+        {
+          "name": "Grilled Chicken",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Tender grilled chicken served with mashed potatoes and sautéed vegetables.",
+          "base_price": 450,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Grilled Vetki Fish",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Delicious grilled Vetki fish served with mashed potatoes and sautéed vegetables.",
+          "base_price": 520,
+          "variations": [],
+          "isOutOfStock": false
+        }
+      ]
+    },
+    {
+      "category_id": "sandwiches",
+      "veg_products": [
+        {
+          "name": "Grilled Veggies",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Grilled vegetables served on multigrain panini bread.",
+          "base_price": 280,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Mushroom & Caramelised Onion",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Sautéed mushrooms and caramelised onion served on multigrain panini bread.",
+          "base_price": 280,
+          "variations": [],
+          "isOutOfStock": false
+        }
+      ],
+      "non_veg_products": [
+        {
+          "name": "Grilled Chicken",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Grilled chicken served on multigrain panini bread.",
+          "base_price": 320,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Mustard Mayo Chicken",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Grilled chicken with mustard mayo served on multigrain panini bread.",
+          "base_price": 320,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "BCPM (Bacon, Pepperoni, Chicken, Mozzarella)",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "A combination of bacon, pepperoni, chicken, and mozzarella served on multigrain panini bread.",
+          "base_price": 380,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "BLT (Bacon, Lettuce, Tomato)",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Classic BLT with bacon, lettuce, and tomato served on multigrain panini bread.",
+          "base_price": 350,
+          "variations": [],
+          "isOutOfStock": false
+        }
+      ]
+    },
+    {
+      "category_id": "desserts",
+      "veg_products": [
+        {
+          "name": "Double Chocolate Brownie",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "A rich and indulgent double chocolate brownie.",
+          "base_price": 280,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Tiramisu",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Classic Italian dessert with coffee-soaked ladyfingers and mascarpone cream.",
+          "base_price": 350,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Salted Caramel and Chocolate Tart",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Decadent tart with salted caramel and rich chocolate.",
+          "base_price": 275,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Blueberry Crumble",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Warm blueberry crumble served with a crisp topping.",
+          "base_price": 325,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Affogato",
+          "isCustomizable": false,
+          "hasVariation": true,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Coffee-based dessert with vanilla or pistachio ice cream.",
+          "base_price": 320,
+          "variations": [
+            {
+              "name": "Vanilla",
+              "price": 320,
+              "isVeg": true
+            },
+            {
+              "name": "Pistachio",
+              "price": 350,
+              "isVeg": true
+            }
+          ],
+          "isOutOfStock": false
+        },
+        {
+          "name": "House Ice cream (3 scoops)",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Vanilla, Belgium Chocolate, Pink Guava, Macarpone Cheese, Salted Caramel",
+          "base_price": 350,
+          "variations": [],
+          "isOutOfStock": false
+        }
+      ],
+      "non_veg_products": []
+    },
+    {
+      "category_id": "extra_items",
+      "category_name": "Extra Items",
+      "isVeg": true,
+      "isNonVeg": true,
+      "veg_products": [
+        {
+          "name": "Grilled Veggies",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Grilled vegetables served on multigrain panini bread.",
+          "base_price": 280,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Mushroom & Caramelised Onion",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Sautéed mushrooms and caramelised onion served on multigrain panini bread.",
+          "base_price": 280,
+          "variations": [],
+          "isOutOfStock": false
+        }
+      ],
+      "non_veg_products": [
+        {
+          "name": "Grilled Chicken",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Grilled chicken served on multigrain panini bread.",
+          "base_price": 320,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Mustard Mayo Chicken",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Grilled chicken with mustard mayo served on multigrain panini bread.",
+          "base_price": 320,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "BCPM (Bacon, Pepperoni, Chicken, Mozzarella)",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "A combination of bacon, pepperoni, chicken, and mozzarella served on multigrain panini bread.",
+          "base_price": 380,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "BLT (Bacon, Lettuce, Tomato)",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Classic BLT with bacon, lettuce, and tomato served on multigrain panini bread.",
+          "base_price": 350,
+          "variations": [],
+          "isOutOfStock": false
+        }
+      ]
+    },
+    {
+      "category_id": "extra_items",
+      "veg_products": [
+        {
+          "name": "Veggies",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Extra veggies",
+          "base_price": 150,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Mushrooms",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Extra mushrooms",
+          "base_price": 120,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Mozzarella Cheese",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Extra mozzarella cheese",
+          "base_price": 150,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Burrata Cheese",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Extra burrata cheese",
+          "base_price": 200,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Truffle Oil",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": true,
+          "isNonVeg": false,
+          "description": "Truffle oil",
+          "base_price": 150,
+          "variations": [],
+          "isOutOfStock": false
+        }
+      ],
+      "non_veg_products": [
+        {
+          "name": "Chicken Chunks",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Extra chicken chunks",
+          "base_price": 120,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Bacon",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Extra bacon",
+          "base_price": 180,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Pepperoni",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Extra pepperoni",
+          "base_price": 250,
+          "variations": [],
+          "isOutOfStock": false
+        },
+        {
+          "name": "Prawns",
+          "isCustomizable": false,
+          "hasVariation": false,
+          "isVeg": false,
+          "isNonVeg": true,
+          "description": "Extra prawns",
+          "base_price": 180,
+          "variations": [],
+          "isOutOfStock": false
+        }
+      ]
+    }
+  ]
+}
