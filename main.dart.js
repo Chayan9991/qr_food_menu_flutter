@@ -47882,7 +47882,7 @@ while(true)switch(s){case 0:l=t.m.a(self)
 if(l.firebase_core!=null){s=1
 break}o=A.bi(l.flutterfire_web_sdk_version)
 if(o==null)o=null
-n=o==null?"11.1.0":o
+n=o==null?"11.2.0":o
 m=p.ganV()
 l=$.a8g().gaW()
 s=3
