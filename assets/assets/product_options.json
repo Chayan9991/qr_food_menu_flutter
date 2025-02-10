@@ -1,0 +1,23 @@
+{
+  "product_customization_options": [
+    {
+      "category_id" : "pizza",
+      "options": [
+        {
+          "type": "Crust",
+          "options": [
+            { "name": "Thin Crust", "price": 0, "isVeg": true },
+            { "name": "Cheese Burst", "price": 50, "isVeg": true }
+          ]
+        },
+        {
+          "type": "Toppings",
+          "options": [
+            { "name": "Extra Cheese", "price": 40,"isVeg": true },
+            { "name": "Olives", "price": 30,"isVeg": true }
+          ]
+        }
+      ]
+    }
+  ]
+}
